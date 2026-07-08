@@ -1,6 +1,4 @@
 // 1. Lunar New Year Start Dates (1930 to 2035) to handle Lunar astrology perfectly
-// Anyone born on or after this date in a given year belongs to that year's Zodiac animal.
-// If born before, they belong to the previous year's animal.
 export const LUNAR_NEW_YEARS = {
   1930: "1930-01-30", 1931: "1931-02-17", 1932: "1932-02-06", 1933: "1933-01-26", 1934: "1934-02-14",
   1935: "1935-02-04", 1936: "1936-01-24", 1937: "1937-02-11", 1938: "1938-01-31", 1939: "1939-02-19",
@@ -44,18 +42,18 @@ export const WESTERN_DATA = {
 
 // 3. Eastern Astrology Animals Detailed Properties
 export const EASTERN_DATA = {
-  "Rat": { element: "Water", polarity: "Yang", energy: "Quick-witted, resourceful, charming, and highly versatile.", luckyColor: "Blue & Gold", icon: "🐀" },
-  "Ox": { element: "Earth", polarity: "Yin", energy: "Diligent, dependable, strong, and highly systematic.", luckyColor: "White, Yellow & Green", icon: "🐂" },
-  "Tiger": { element: "Wood", polarity: "Yang", energy: "Brave, competitive, unpredictable, and fiercely self-assured.", luckyColor: "Orange, Blue & Gray", icon: "🐅" },
-  "Rabbit": { element: "Wood", polarity: "Yin", energy: "Quiet, elegant, kind, and artistic with great taste.", luckyColor: "Red, Pink & Purple", icon: "🐇" },
-  "Dragon": { element: "Earth", polarity: "Yang", energy: "Confident, charismatic, powerful, and natural-born trailblazer.", luckyColor: "Gold, Silver & Grayish White", icon: "🐉" },
-  "Snake": { element: "Fire", polarity: "Yin", energy: "Enigmatic, wise, intuitive, and deeply analytical.", luckyColor: "Black, Red & Yellow", icon: "🐍" },
-  "Horse": { element: "Fire", polarity: "Yang", energy: "Animated, active, energetic, and highly independence-driven.", luckyColor: "Green & Yellow", icon: "🐎" },
-  "Goat": { element: "Earth", polarity: "Yin", energy: "Gentle, compassionate, creative, and harmonious.", luckyColor: "Green, Red & Purple", icon: "🐐" },
-  "Monkey": { element: "Metal", polarity: "Yang", energy: "Sharp, smart, mischievous, and incredibly inquisitive.", luckyColor: "White, Blue & Gold", icon: "🐒" },
-  "Rooster": { element: "Metal", polarity: "Yin", energy: "Observant, hardworking, courageous, and outspoken.", luckyColor: "Gold, Brown & Yellow", icon: "🐓" },
-  "Dog": { element: "Earth", polarity: "Yang", energy: "Loyal, honest, amiable, and protective.", luckyColor: "Green, Red & Purple", icon: "🐕" },
-  "Pig": { element: "Water", polarity: "Yin", energy: "Compassionate, generous, diligent, and peaceful.", luckyColor: "Yellow, Grey & Gold", icon: "🐖" }
+  "Rat": { element: "Water", polarity: "Yang", energy: "Quick-witted, resourceful, charming, and highly versatile." },
+  "Ox": { element: "Earth", polarity: "Yin", energy: "Diligent, dependable, strong, and highly systematic." },
+  "Tiger": { element: "Wood", polarity: "Yang", energy: "Brave, competitive, unpredictable, and fiercely self-assured." },
+  "Rabbit": { element: "Wood", polarity: "Yin", energy: "Quiet, elegant, kind, and artistic with great taste." },
+  "Dragon": { element: "Earth", polarity: "Yang", energy: "Confident, charismatic, powerful, and natural-born trailblazer." },
+  "Snake": { element: "Fire", polarity: "Yin", energy: "Enigmatic, wise, intuitive, and deeply analytical." },
+  "Horse": { element: "Fire", polarity: "Yang", energy: "Animated, active, energetic, and highly independence-driven." },
+  "Goat": { element: "Earth", polarity: "Yin", energy: "Gentle, compassionate, creative, and harmonious." },
+  "Monkey": { element: "Metal", polarity: "Yang", energy: "Sharp, smart, mischievous, and incredibly inquisitive." },
+  "Rooster": { element: "Metal", polarity: "Yin", energy: "Observant, hardworking, courageous, and outspoken." },
+  "Dog": { element: "Earth", polarity: "Yang", energy: "Loyal, honest, amiable, and protective." },
+  "Pig": { element: "Water", polarity: "Yin", energy: "Compassionate, generous, diligent, and peaceful." }
 };
 
 // 4. Complete 144 Primal Zodiac Archetype Matrix
